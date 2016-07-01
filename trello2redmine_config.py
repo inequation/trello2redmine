@@ -1,4 +1,6 @@
-﻿# This is the trello2redmine configuration file.
+﻿# -*- coding: utf-8 -*-
+
+# This is the trello2redmine configuration file.
 # All data here is exemplary, you need to fill it properly for the script to work!
 
 # Trello configuration
