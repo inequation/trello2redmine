@@ -17,7 +17,7 @@ if len(sys.argv) > 3 or (len(sys.argv) == 2 and sys.argv[1] == '-h'):
 	sys.exit(0)
 
 # If a dry run, JSON is printed instead of submitted to Redmine.
-dry_run = len(sys.argv) < 3 or sys.argv[2] != '-c'
+dry_run = len(sys.argv) < 2 or sys.argv[2] != '-c'
 if dry_run:
 	print('Making a dry run! Re-run with -c to commit the import into Redmine.')
 else:
